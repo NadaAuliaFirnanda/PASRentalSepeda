@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".EditCustomer">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Edit Data"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edemail"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Email"
+        android:padding="15dp" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Nama"
+        android:id="@+id/ednama"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="No Hp"
+        android:inputType="number"
+        android:id="@+id/ednohp"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Alamat"
+        android:id="@+id/edalamat"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="No Ktp"
+        android:inputType="number"
+        android:id="@+id/ednoktp"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btn_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#fff"
+        android:layout_marginHorizontal="20dp"
+        android:hint="EDIT CUSTOMER"
+        android:background="@color/colorPrimaryDark"/>
+
+</LinearLayout>
